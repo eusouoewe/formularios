@@ -8,13 +8,12 @@
 }
 
 .container {
-        background: url(background-form05/pngwing.com.png);
+        background: url(../background-form05/pngwing.com.png);
         height: 100vh;
         background-size: 45%;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-position-x: left;
-        background-position-y: bottom;
+        background-position: left bottom;
 }
 
 .cor-gradiente {
@@ -90,5 +89,5 @@ button:hover {
 a {
         color: rgb(45, 45, 45);
         text-decoration: none;
-        margin-left: 230px;
+        margin-left: 160px;
 }
