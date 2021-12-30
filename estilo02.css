@@ -1,0 +1,100 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+        font-family: 'Open Sans';
+        background-image: url(background-form02/background.jpg);
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-x:center;
+        background-position-y: center;
+}
+
+form {
+        font-family: 'Open Sans';
+        width: 300px;
+        height: 550px;
+        background-color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-40%, -50%);
+        border-radius: 10px;
+}
+
+form h1 {
+        text-align: center;
+        padding: 15px;
+}
+
+input {
+        font-family: 'Nunito';
+        font-weight: bold;
+        color: black;
+        width: 50%;
+        display: block;
+        margin-left: 45px;
+        padding: 15px 30px 15px 30px;
+        border-radius: 35px;
+        border: none;
+        box-shadow: 0 0.5px 20px rgba(0, 0, 0, 0.137);
+        transition: 0.8s;
+}
+
+input::placeholder {
+        color: black;
+}
+input:hover {
+        margin-left: 35px;
+        padding: 15px 40px 15px 40px;
+        background-color: rgb(175, 72, 243);
+        transition-duration: 0.8s;
+        box-shadow: 0px 1px 20px rgb(175, 72, 243);
+}
+
+button {
+        display: block;
+        background-color: rgb(175, 72, 243);
+        color: white;
+        margin-left: 85px;
+        padding: 15px 40px 15px 40px;
+        border-radius: 35px;
+        border: none;
+        box-shadow: 0px 1px 20px rgb(175, 72, 243);
+        transition: 0.8s;
+}
+
+button:hover {
+        margin-left: 75px;
+        padding: 15px 50px 15px 50px;
+        transition-duration: 0.8s;
+        cursor: pointer;
+}
+
+p {
+        text-align: center;
+        color: darkgray;
+}
+
+img {
+        max-width: 20px;
+        margin-left: 90px;
+        margin-right: -35px;
+        margin-bottom: 70px;
+        padding: 5px;
+        transition: 0.8s;
+}
+
+img:hover {
+        border-radius: 50%;
+        background-color: rgba(137, 43, 226, 0.438);
+        transition: 0.8s;
+}
+
+a.alternative {
+        margin-left: 120px;
+        padding-top: 120px;
+        text-decoration: none;
+        color: darkgray;
+}

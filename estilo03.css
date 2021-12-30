@@ -1,0 +1,79 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+        font-family: 'Ubuntu', sans-serif;
+}
+
+form {
+        width: 300px;
+        height: 350px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+form h1 {
+        text-align: center;
+        padding: 30px;
+        color: rgb(51, 5, 126);
+}
+
+input.digi {
+        font-family: 'Ubuntu';
+        margin: 10px 15px;
+        padding: 15px 10px;
+        width: 250px;
+        background-color: rgba(211, 211, 211, 0.479);
+        border: none;
+        border-radius: 3px;
+        transition: 0.7s;
+}
+
+input.digi:hover {
+        background-color: darkgray;
+        transition: 0.7s;
+        border-radius: 30px;
+}
+
+input::placeholder {
+        font-weight: bold;
+        color: rgb(131, 103, 177);
+}
+
+input.caixa {
+        margin-left: 15px;
+        color: darkgray;
+}
+
+label {
+        color: darkgray;
+        margin-right: 84px;
+}
+
+a {
+        color: rgb(121, 86, 179);
+        text-decoration: none;
+}
+
+button {
+        font-family: 'Ubuntu';
+        font-weight: bold;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        background-color: rgb(126, 117, 204);
+        margin: 30px 15px;
+        width: 270px;
+        padding: 15px 10px;
+        border: none;
+        border-radius: 3px;
+        transition: 0.7s;
+}
+
+button:hover {
+        background-color: rgb(90, 77, 202);
+        transition: 0.7s;
+        border-radius: 30px;
+}
