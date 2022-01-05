@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+body {
+        background: url(../background/bg.png);
+        width: 100vw;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: grey;
+}
+
+main {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: white;
+        width: 300px;
+        height: 500px;
+        padding: 10px;
+        border-radius: 8px;
+        transition: 0.6s;
+}
+
+main:hover {
+        border-radius: 30px;
+        transition: 0.6s;
+}
+
+.titulo {
+        padding: 30px;
+        text-align: center;
+        color: black;
+}
+
+div > label {
+        color: black;
+        font-size: 14px;
+}
+
+.nome, .senha, .botao {
+        padding-left: 20px;
+}
+
+.nome > input, .senha > input {
+        padding: 5px;
+        border: none;
+        border-bottom: 1px solid grey;
+        width: 230px;
+}
+
+.nome > input, .senha > input:focus {
+        outline: none;
+}
+
+.esqueceu {
+        font-size: 12px;
+        position: relative;
+        text-align: right;
+        padding-right: 30px;
+}
+
+.botao > button { 
+        position: relative;
+        margin: 20px 0;
+        padding: 5px 30px;
+        width: 260px;
+        border-radius: 30px;
+        border: none;
+        color: white;
+        background-image: linear-gradient(to right, rgb(0, 204, 255), rgb(255, 0, 255));
+}
+
+.botao > button:hover {
+        cursor: pointer;
+}
+
+.opcoes {
+        position: relative;
+        text-align: center;
+        font-size: 12px;
+        padding-bottom: 10px;
+}
+
+.icone {
+        position: relative;
+        margin: 10px 5px;
+        padding: 10px;
+        left: 29%;
+        color: white;
+}
+
+.icone#face {
+        padding: 4px 7px;
+        background-color: #3b5998;
+        border-radius: 100%;
+}
+
+.icone#twitter {
+        padding: 4px 7px;
+        background-color: #1D9BF0;
+        border-radius: 100%;
+}
+
+.icone#google {
+        padding: 4px 7px;
+        background-color: red;
+        border-radius: 100%;
+}
+
+#icones {
+        margin-bottom: 90px;
+}
+
+.extras {
+        text-align: center;
+        font-size: 12px;
+}
+
+.link {
+        text-decoration: none;
+        color: grey;
+}
