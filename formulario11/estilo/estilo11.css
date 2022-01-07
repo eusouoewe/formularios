@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Open Sans', sans-serif;
+}
+
+body {
+        background-image: linear-gradient(to right, #621CC9, #3978EE);
+        width: 100vw;
+        height: 100vh;
+}
+
+main {
+        position: absolute;
+        width: fit-content;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+}
+
+main > h1 {
+        padding: 15px;
+        text-align: center;
+        font-size: 1.5em;
+        color: white;
+        font-weight: lighter;
+}
+
+main > form {
+        background-color: white;
+        border-radius: 8px;
+}
+
+.info > input {
+        padding: 10px;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+}
+
+.info > input::placeholder {
+        color: black;
+        padding-left: 5px;
+}
+
+.login > button {
+        background-color: black;
+        color: white;
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 0 0 8px 8px;
+        transition: 0.8s;
+}
+
+.login > button:hover {
+        cursor: pointer;
+        color: #3978EE;
+        padding: 20px 170px;
+        transition: 0.8s;
+}
+
+h6 {
+        padding: 10px;
+        text-align: center;
+}
+
+h6 > a {
+        text-decoration: none;
+        color: white;
+}
