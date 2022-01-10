@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+* {
+        padding: 0; margin: 0;
+}
+
+body {
+        background-color: rgba(255, 92, 92, 0.966);
+}
+
+.formulario {
+        font-family: 'Arvo', serif;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+        min-width: 400px;
+        padding: 20px;
+}
+
+label {
+        position: absolute;
+        font-size: .6em;
+        font-weight: bolder;
+        color: white;
+}
+
+input {
+        margin: 13px 8px 0 0;
+}
+
+input:focus {
+        outline: none;
+}
+
+input::placeholder {
+        padding-left: 4px;
+}
+
+button {
+        margin-top: 5px;
+        position: absolute;
+        left: 74.2%;
+        padding: 3px 7px;
+        background-color: blueviolet;
+        outline: none;
+        border: none;
+        color: white;
+}
+
+button:hover {
+        cursor: pointer;
+}
