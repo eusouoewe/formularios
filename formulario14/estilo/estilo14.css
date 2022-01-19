@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+body {
+        background-image: linear-gradient(to bottom right, rgba(128, 0, 128, 0.808), pink);
+        width: 100vw;
+        height: 100vh;
+}
+
+main.form {
+        height: 100%;
+}
+
+.form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 2em;
+        width: 35%;
+        height: 50%;
+        background-color: white;
+        border-radius: 10px;
+}
+
+.form > h1 {
+        text-align: center;
+        padding: 15px;
+}
+
+.form > div {
+        height: 15%;
+}
+
+div > input, div > textarea {
+        width: 100%;
+        padding-bottom: 5px;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid grey;
+        transition: 0.5s;
+}
+
+div > input:focus, div > textarea:focus {
+        border-bottom: 2px solid rgba(128, 0, 128, 0.808);
+        transition: 0.5s;
+}
+
+.botao > button {
+        margin-top: 60px;
+        padding: 5px;
+        margin-left: 5%;
+        width: 90%;
+        background-image: linear-gradient(to right, rgba(128, 0, 128, 0.808), pink);
+        color: white;
+        border: none;
+        border-radius: 7px;
+        transition: .5s;
+}
+
+.botao > button:hover {
+        letter-spacing: 4px;
+        color: black;
+        font-weight: bolder;
+}
