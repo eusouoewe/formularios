@@ -1,0 +1,86 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Roboto', sans-serif;
+}
+
+body {
+        background-color: #0E4C75
+}
+
+main {
+        background-color: rgb(50, 130, 181);
+        color: white;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 350px;
+        height: 500px;
+}
+
+main > h1 {
+        text-align: center;
+        margin: 50px 0;
+}
+
+form > input {
+        width: 75%;
+        padding: 12px;
+        margin: 10px 9.5%;
+        border: none;
+        border-radius: 3px;
+}
+
+form > input:focus {
+        outline: none;
+}
+
+::-webkit-input-placeholder {
+        color: lightgrey;
+        font-size: 15px
+}
+
+form > button {
+        width: 82%;
+        padding: 10px;
+        font-size: 15px;
+        margin: 10px 9.4%;
+        border-radius: 3px;
+        border: none;
+        background-color: lightblue;
+        transition: .5s
+}
+
+form > button:hover {
+        background-color: white;
+        transition: .5s;
+        cursor: pointer;
+}
+
+main > p {
+        text-align: center;
+        margin: 20px;
+}
+
+a {
+        text-decoration: none;
+        color: white;
+        transition: .5s;
+}
+
+a:hover {
+        background-color: rgba(255, 255, 255, 0.301);
+        transition: .5s;
+        padding:3px;
+        border-radius: 5px;
+}
+
+#sair {
+        position: absolute;
+        top: 84%;
+        left: 48%;
+        padding: 5px;
+}
