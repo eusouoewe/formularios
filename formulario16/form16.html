@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo/estilo16.css">
+        <script src="https://kit.fontawesome.com/5a01d7a608.js" crossorigin="anonymous"></script>
+        <title>Form 16 Login</title>
+</head>
+<body>
+        <header>
+                <img src="imagens/logo.png" alt="amazon-logo" width="180px">
+        </header>
+        <main>
+                <h1>Criar conta</h1>
+                <form>
+                        <label for="nome">Seu nome</label>
+                        <input type="text" name="nome" id="nome">
+                        <label for="mail">Email</label>
+                        <input type="email" name="mail" id="mail">
+                        <label for="senha">Senha</label>
+                        <input type="password" name="senha" id="senha" placeholder="Deve ter pelo menos 6 dígitos" required="required">
+                        <p class="info"><i class="fas fa-info-circle">&nbsp;</i>A senha deve ter pelo menos 6 dígitos.</p>
+                        <label for="novamente">Digite novamente a senha</label>
+                        <input type="password" name="senha" id="novamente">
+                        <input class="button" type="button" value="Criar sua Conta Amazon">
+                        <p class="avisos">
+                                Ao criar uma conta, você aceita as <a href="#">Condições de Uso</a> e a <a href="#">Política de Privacidade</a> da Amazon.
+                        </p>
+                </form>
+                <footer>
+                        <p>Já tem uma conta? <a href="#">Inciar Sessão →</a></p>
+                </footer>
+        </main>
+</body>
+</html>

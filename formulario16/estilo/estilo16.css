@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+        padding: 0; margin: 0;
+        font-family: 'Amazon Ember';
+}
+
+body {
+        text-align: center;
+}
+
+img {
+        margin: 25px;
+}
+
+main {
+        text-align: left;
+        width: 320px;
+        margin: auto;
+        border: 1px solid rgba(128, 128, 128, 0.459);
+        border-radius: 4px;
+        padding: 0 30px;
+}
+
+main > h1 {
+        margin: 15px 0;
+}
+
+label {
+        font: bolder 15px 'Amazon Ember';
+        display: flex;
+        margin-top: 15px;
+}
+
+label:hover {
+        cursor: pointer;
+}
+
+input {
+        width: 310px;
+        padding: 4px;
+        border: 1px solid darkgray;
+        border-radius: 3px;
+}
+
+input:focus {
+        outline: none;
+}
+
+.info {
+        margin-top: 5px;
+        font-size: 13px
+}
+
+.button {
+        margin-top: 15px;
+        width: 320px;
+        background-image: linear-gradient(to bottom, #F5D78B, #EEBC3E);
+        border: 1px solid rgba(0, 0, 0, 0.527);
+}
+
+.button:hover {
+        cursor: pointer;
+}
+
+.avisos {
+        font: normal 13px "Amazon Ember";
+        margin-top: 15px;
+        margin-bottom: 30px;
+}
+
+footer {
+        text-align: center;
+        font-size: 13px;
+        padding-bottom: 5px;
+}
+
+a {
+        text-decoration: none;
+        color: blue
+}
