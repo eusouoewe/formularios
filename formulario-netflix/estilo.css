@@ -10,6 +10,62 @@ body {
         background-repeat: no-repeat;
 }
 
+body > img {
+        margin-top: 15px;
+        margin-left: 37px;
+}
+
 main {
-        background-color: aliceblue;
+        background-color: rgba(0, 0, 0, 0.850);
+        position: absolute;
+        width: 400px;
+        height: 550px;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -45%);
+        border-radius: 5px;
+}
+
+form > t1 {
+        font-size: 1.5em;
+        font-weight: bold;
+        padding-bottom: 15px;
+}
+
+form {
+        color: white;
+        display: grid;
+        padding: 60px;
+}
+
+input {
+        color: white;
+        padding: 12px;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        background-color: rgb(53, 53, 53);
+        outline: none;
+        border: none;
+        border-radius: 3px;
+}
+
+input::placeholder {
+        padding-left: 7px;
+        color: grey;
+}
+
+button {
+        color: white;
+        background-color: rgb(255, 20, 20);
+        padding: 12px;
+        margin-top: 20px;
+        outline: none;
+        border: none;
+        border-radius: 3px;
+        font-weight: bolder;
+}
+
+label , a{
+        font-size: 12px;
+        color: grey;
 }

@@ -6,20 +6,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="estilo.css">
         <link rel="shortcut icon" href="imagens/netflix-icon-download-in-flat-style.png" type="image/x-icon">
-        <title>Netflix - Login</title>
+        <title>Netflix</title>
 </head>
 <body>
+        <img src="imagens/netflix-logo-5.png" alt="logo" width="165px">
         <main>
-                <t1>
-                        Entrar
-                </t1>
                 <form>
-                        <input type="text" name="nome" id="nome" placeholder="Email ou número de telefone">
+                        <t1>
+                                Entrar
+                        </t1>
+                        <input type="number, email" name="nome" id="nome" placeholder="Email ou número de telefone">
                         <input type="password" name="senha" id="senha" placeholder="Senha">
-                        <input type="button" value="Entrar">
-                        <input type="checkbox" name="lembrar" id="lembrar">
-                        <label for="lembrar">Lembre-se de mim</label>
+                        <button>Entrar</button>
+                        <nobr>
+                                <input type="checkbox" name="lembrar" id="lembrar" checked>
+                                <label for="lembrar">Lembre-se de mim</label>
                         <a href="#">Precisa de ajuda?</a>
+                </nobr>
                 </form>
                 <a href="https://facebook.com/login">Conectar com Facebook</a>
                 <p>Novo por aqui? <a href="#">Assine agora</a></p>
