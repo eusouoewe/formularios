@@ -6,8 +6,12 @@
 
 body {
         background-image: url(imagens/bg-netflix.jpg);
-        background-size: cover;
+        width: 95vw;
+        height: 100vh;
         background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: 150%;
+        background-position: top right;
 }
 
 body > img {
@@ -16,56 +20,95 @@ body > img {
 }
 
 main {
-        background-color: rgba(0, 0, 0, 0.850);
+        background-color: rgba(0, 0, 0, 0.875);
         position: absolute;
-        width: 400px;
-        height: 550px;
+        width: 450px;
+        height: 650px;
         top: 55%;
         left: 50%;
         transform: translate(-50%, -45%);
-        border-radius: 5px;
+        border-radius: 4px;
 }
 
 form > t1 {
-        font-size: 1.5em;
+        font-size: 2em;
         font-weight: bold;
-        padding-bottom: 15px;
+        padding-bottom: 22px;
 }
 
 form {
         color: white;
         display: grid;
-        padding: 60px;
+        padding: 59px 68px;
 }
 
 input {
         color: white;
-        padding: 12px;
-        margin-top: 6px;
-        margin-bottom: 6px;
+        padding: 17.5px;
+        margin: 7px 0;
         background-color: rgb(53, 53, 53);
         outline: none;
         border: none;
-        border-radius: 3px;
+        border-radius: 5px;
 }
 
 input::placeholder {
-        padding-left: 7px;
         color: grey;
+        font-size: 1.2em;
+        padding-left: 3px;
 }
 
 button {
         color: white;
         background-color: rgb(255, 20, 20);
-        padding: 12px;
-        margin-top: 20px;
+        padding: 15px 0;
+        margin-top: 32px;
         outline: none;
         border: none;
-        border-radius: 3px;
+        border-radius: 5px;
         font-weight: bolder;
+        font-size: 1em;
 }
 
-label , a{
-        font-size: 12px;
+div {
+        display: inline-block;
+        padding-top: 7px;
+        font-size: 13px;
+        color: rgb(173, 173, 173);
+}
+
+div > a {
+        padding: 0;
+        margin-left: 82px;
+        text-decoration: none;
+        color: rgb(173, 173, 173);
+}
+
+p {
+        margin: 32px 0 0 69px;
         color: grey;
+}
+
+p > a {
+        text-decoration: none;
+        color: white;
+}
+
+#recaptcha {
+        font-size: 13px;
+        width: 70%;
+        margin: 12px 0 0 69px;
+}
+
+#recaptcha > a {
+        color: rgb(0, 110, 219);
+}
+
+footer {
+        background-color: rgba(0, 0, 0, 0.875);
+        position: absolute;
+        width: 100%;
+        top: 150%;
+        left: 0;
+        bottom: 0;
 }
