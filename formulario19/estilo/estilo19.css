@@ -246,3 +246,14 @@ select:focus {
 .button3:hover {
         letter-spacing: 3px;
 }
+
+footer {
+        position: absolute;
+        right: 5px;
+        bottom: 0;
+}
+
+footer > p > a {
+        text-decoration: none;
+        color: black;
+}
