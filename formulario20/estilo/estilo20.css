@@ -1,0 +1,129 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+body {
+        background-color: rgba(128, 128, 128, 0.20);
+}
+
+main {
+        width: 600px;
+        height: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        margin: auto;
+        background-color: white;
+        border-radius: 7px;
+}
+
+.sign {
+        position: relative;
+        background: url(../image-bg/bg-form.jpg);
+        background-position: top left;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100%;
+        height: 35%;
+        border-radius: 7px 7px 0 0;
+}
+
+.gradient {
+        position: relative;
+        background: linear-gradient(to right, blue, blue);
+        width: 100%;
+        height: 100%;
+        opacity: .10;
+}
+
+.sign > p {
+        position: absolute;
+        top: 50px;
+        left: 210px;
+        color: white;
+        font-weight: bolder;
+        font-size: 2.5em;
+        transition: .4s;
+}
+
+.inputs {
+        width: 70%;
+        padding-top: 30px;
+        margin: auto;
+}
+
+.inputs > label {
+        padding-right: 10px;
+}
+
+.inputs > label:hover {
+        cursor: pointer;
+}
+
+.inputs > input {
+        border: none;
+        border-bottom: 1px solid black;
+        width: 76%;
+        padding: 10px 0 10px 0;
+}
+
+.inputs > input:focus {
+        outline: none;
+}
+
+.last {
+        width: 53.5%;
+        margin: auto;
+        padding: 30px 0 0 85px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+}
+
+.inside-last > input:hover, .inside-last > label {
+        cursor: pointer;
+}
+
+.last > a {
+        text-decoration: none;
+        color: lightgrey;
+        transition: .4s;
+}
+
+.last > a:hover {
+        color: black;
+}
+
+button {
+        margin: 20px 0 0 180px;
+        padding: 5px 40px;
+        border-radius: 30px;
+        border: none;
+        background-color: rgb(93, 200, 93);
+        color: white;
+        transition: .4s;
+}
+
+button:hover {
+        font-weight: bolder;
+        background-color: lightgreen;
+        color: green;
+        cursor: pointer;
+}
+
+footer {
+        position: absolute;
+        bottom: 0;
+        right: 5px;
+}
+
+footer > a {
+        text-decoration: none;
+        color: black;
+}
