@@ -1,0 +1,144 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+        padding: 0;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+}
+
+body {
+        background-color: #FF9551;
+}
+
+main {
+        display: flex;
+        flex-wrap: nowrap;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 750px;
+        min-height: 400px;
+        margin: auto;
+}
+
+form {
+        background-color: white;
+        width: 47.20%;
+        padding: 20px;
+        border-radius: 8px 0 0 8px;
+}
+
+form > h1 {
+        padding-top: 10px;
+        font-size: 1.5em;
+        width: fit-content;
+        height: fit-content;
+}
+
+.line {
+        position: absolute;
+        width: 27px;
+        height: 4px;
+        background-color: #FF9551;
+        margin-top: -5px;
+}
+
+.inputs, .forgot, .button, p {
+        width: 95%;
+}
+
+.inputs {
+        display: flex;
+        flex-direction: column;
+        margin: 30px 0 10px 0;
+}
+
+.inputs > input {
+        border: none;
+        border-bottom: 1px solid grey;
+        padding: 0 0 5px 20px;
+        transition: .7s;
+}
+
+.inputs > input:focus {
+        outline: none;
+        border-bottom: 2px solid grey;
+}
+
+.inputs > ::-webkit-input-placeholder {
+        font-weight: bolder;
+        letter-spacing: .8px;
+}
+
+.forgot {
+        text-decoration: none;
+        color: #FF9551;
+}
+
+.button {
+        margin-top: 20px;
+        padding: 8px;
+        background-color: #FF9551;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+}
+
+.button:hover {
+        cursor: pointer;
+}
+
+.p-form {
+        padding-top: 35px;
+        font-size: .9em;
+        text-align: center;
+}
+
+.p-form > a {
+        text-decoration: none;
+        color: #FF9551;
+}
+
+.image {
+        background: url(../img/note.jpg);
+        min-width: 50%;
+        min-height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: absolute;
+        right: 0;
+        border-radius: 0 8px 8px 0;
+}
+
+.gradient {
+        position: absolute;
+        right: 0;
+        width: 50%;
+        background-color: #FF9551;
+        opacity: .4;
+        height: 100%;
+}
+
+.phrase {
+        position: absolute;
+        color: white;
+        width: 50%;
+        right: 0;
+        top: 40%;
+        text-align: center;
+        font-size: 1.2em;
+}
+
+.phrase > p {
+        font-weight: bold;
+        font-size: .8em;
+        transition: .7s;
+}
+
+.phrase > p:hover {
+        font-size: 1.2em;
+        letter-spacing: 3px;
+}
